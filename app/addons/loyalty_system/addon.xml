@@ -1,0 +1,73 @@
+<?xml version="1.0"?>
+
+<addon scheme="2.0">
+
+<id>loyalty_system</id>
+
+<version>1.0</version>
+
+<name>loyalty system</name>
+
+<description>Sistema de Lealdade</description>
+
+<priority>100500</priority>
+
+
+-<settings>
+
+
+-<sections>
+
+
+-<section id="general">
+
+<name> General </name>
+
+
+-<items>
+
+
+-<item id="header_general">
+
+<name>Settings</name>
+
+<type>header</type>
+
+</item>
+
+
+-<item id="num_point_registation">
+
+<name> Number of points in register</name>
+
+<type> input</type>
+
+<default_value>10</default_value>
+
+</item>
+
+
+-<item id="num_point_inpurchase">
+
+<name> Number of points in purchase</name>
+
+<type> input</type>
+
+<default_value>10</default_value>
+
+</item>
+
+</items>
+
+</section>
+
+</sections>
+
+</settings>
+
+<queries>CREATE TABLE IF NOT EXISTS 'cscart2'.'cscart_loyalty_system' (
+    'id_loyalty_system' INT(11) NOT NULL,'loyalty_points' INT(11) NOT NULL,
+    'data' DATE NULL DEFAULT NULL,PRIMARY KEY ('id_loyalty_system'))
+    ALTER TABLE 'cscart2'.'cscart_loyalty_system'ADD COLUMN 'fk_user_id' INT(11) NULL DEFAULT NULL AFTER 'data'; </queries>
+
+</addon>
