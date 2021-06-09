@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-08 20:40:30
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-09 16:52:44
          compiled from "C:\xampp\htdocs\cscart2\design\backend\templates\common\styles.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:189408633260bfab8e345ea4-27451829%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:18608495760c0c7ac01b290-33087484%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '189408633260bfab8e345ea4-27451829',
+  'nocache_hash' => '18608495760c0c7ac01b290-33087484',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60bfab8e3592b8_92547113',
+  'unifunc' => 'content_60c0c7ac02e718_00569728',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60bfab8e3592b8_92547113')) {function content_60bfab8e3592b8_92547113($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.styles.php';
+<?php if ($_valid && !is_callable('content_60c0c7ac02e718_00569728')) {function content_60c0c7ac02e718_00569728($_smarty_tpl) {?><?php if (!is_callable('smarty_block_styles')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.styles.php';
 if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.style.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.hook.php';
 ?><?php $_smarty_tpl->smarty->_tag_stack[] = array('styles', array()); $_block_repeat=true; echo smarty_block_styles(array(), null, $_smarty_tpl, $_block_repeat);while ($_block_repeat) { ob_start();?>
