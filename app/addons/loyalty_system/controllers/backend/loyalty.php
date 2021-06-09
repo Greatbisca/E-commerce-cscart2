@@ -14,6 +14,8 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
         //mostrar no template
         Tygh::$app['view']->assign('items', $loyalty_system);
 
+        //teste
+
     } 
     if ($mode == 'update'){
             $id_anterior = $_GET['user_id'];
