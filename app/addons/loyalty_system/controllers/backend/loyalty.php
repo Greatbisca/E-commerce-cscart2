@@ -16,7 +16,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
             $loyalty_system[$key]["conta_corrente"] = db_get_array($user_transactions);
         }
 
-        //mostrar no template
+        //mostrar no template       
         Tygh::$app['view']->assign('items', $loyalty_system);
 
     } 
@@ -24,6 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
             $id_anterior = $_GET['user_id'];
             $chain = "select * from cscart_users as P Left Join cscart_loyalty_system  as U on U.fk_user_id = P.user_id where user_id ".$id_anterior;
         }
+        
 } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if($mode != "manage"){
         throw new ErrorException("Pedido Invalido");

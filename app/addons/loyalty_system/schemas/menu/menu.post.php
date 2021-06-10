@@ -1,5 +1,5 @@
 <?php
-use Tygh\Register;
+use Tygh\Registry;
 
 $schema['central']['marketing']['items']['loyalty_system'] = [
     'href' => 'loyalty.manage',
