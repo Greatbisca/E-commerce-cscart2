@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-09 16:52:44
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-10 17:43:17
          compiled from "C:\xampp\htdocs\cscart2\design\backend\templates\addons\geo_maps\hooks\index\styles.post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:189274217460c0c7ac38df92-93517034%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:65275340060c22505b360b4-56985849%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,15 +11,15 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '189274217460c0c7ac38df92-93517034',
+  'nocache_hash' => '65275340060c22505b360b4-56985849',
   'function' => 
   array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60c0c7ac3907e0_54972753',
+  'unifunc' => 'content_60c22505b38862_98946471',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60c0c7ac3907e0_54972753')) {function content_60c0c7ac3907e0_54972753($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.style.php';
+<?php if ($_valid && !is_callable('content_60c22505b38862_98946471')) {function content_60c22505b38862_98946471($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.style.php';
 ?><?php echo smarty_function_style(array('src'=>"addons/geo_maps/styles.css"),$_smarty_tpl);?>
 
 <?php }} ?>
