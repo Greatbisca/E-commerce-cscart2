@@ -1,17 +1,17 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-10 20:48:03
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-14 22:13:05
          compiled from "C:\xampp\htdocs\cscart2\design\backend\templates\addons\loyalty_system\views\loyalty\manage.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:86625263060c2505314baf7-89474173%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:52062181560c7aa41c5e6e2-67401256%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '658b047751238ae9d93ac1f2bcaef5e8be957419' => 
     array (
       0 => 'C:\\xampp\\htdocs\\cscart2\\design\\backend\\templates\\addons\\loyalty_system\\views\\loyalty\\manage.tpl',
-      1 => 1623347278,
+      1 => 1623684553,
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '86625263060c2505314baf7-89474173',
+  'nocache_hash' => '52062181560c7aa41c5e6e2-67401256',
   'function' => 
   array (
   ),
@@ -23,9 +23,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60c250531580e5_94476820',
+  'unifunc' => 'content_60c7aa41c65f57_48004286',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60c250531580e5_94476820')) {function content_60c250531580e5_94476820($_smarty_tpl) {?><style>
+<?php if ($_valid && !is_callable('content_60c7aa41c65f57_48004286')) {function content_60c7aa41c65f57_48004286($_smarty_tpl) {?><style>
     table {
       font-family: arial, sans-serif;
       border-collapse: collapse;
@@ -91,7 +91,7 @@ points" method="POST" action="admin.php?dispatch=loyalty.manage" class="hidden">
                     <input type="hidden" name="user_id" value="<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['value']->value['user_id'], ENT_QUOTES, 'UTF-8');?>
 "/>
                     <label>
-                        points
+                        Loyalty Points
                     </label>
                     <input type="number" name="loyalty_points"/>
                     <input type="submit" value="OK"/> 

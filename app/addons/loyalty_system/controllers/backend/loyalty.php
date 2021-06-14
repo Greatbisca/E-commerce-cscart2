@@ -24,7 +24,7 @@ if($_SERVER['REQUEST_METHOD'] == 'GET') {
             $id_anterior = $_GET['user_id'];
             $chain = "select * from cscart_users as P Left Join cscart_loyalty_system  as U on U.fk_user_id = P.user_id where user_id ".$id_anterior;
         }
-        
+//Inserir os diferentes pontos        
 } elseif ($_SERVER['REQUEST_METHOD'] == 'POST') {
     if($mode != "manage"){
         throw new ErrorException("Pedido Invalido");

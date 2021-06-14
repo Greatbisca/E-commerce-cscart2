@@ -48,7 +48,7 @@
                 <form id="frm{$value.user_id}points" method="POST" action="admin.php?dispatch=loyalty.manage" class="hidden">
                     <input type="hidden" name="user_id" value="{$value.user_id}"/>
                     <label>
-                        points
+                        Loyalty Points
                     </label>
                     <input type="number" name="loyalty_points"/>
                     <input type="submit" value="OK"/> 

@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-10 20:54:31
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-14 22:32:17
          compiled from "C:\xampp\htdocs\cscart2\design\themes\responsive\templates\addons\gift_certificates\hooks\index\styles.post.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:26429357760c251d7e59501-64122152%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:149838114360c7aec14c52a8-28870659%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '26429357760c251d7e59501-64122152',
+  'nocache_hash' => '149838114360c7aec14c52a8-28870659',
   'function' => 
   array (
   ),
@@ -22,9 +22,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => false,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60c251d7e7ae00_47064084',
+  'unifunc' => 'content_60c7aec14d01e1_76680948',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60c251d7e7ae00_47064084')) {function content_60c251d7e7ae00_47064084($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.style.php';
+<?php if ($_valid && !is_callable('content_60c7aec14d01e1_76680948')) {function content_60c7aec14d01e1_76680948($_smarty_tpl) {?><?php if (!is_callable('smarty_function_style')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.style.php';
 if (!is_callable('smarty_function_set_id')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\function.set_id.php';
 ?><?php if ($_smarty_tpl->tpl_vars['runtime']->value['customization_mode']['design']=="Y"&&(defined('AREA') ? constant('AREA') : null)=="C") {
 $_smarty_tpl->_capture_stack[0][] = array("template_content", null, null); ob_start();

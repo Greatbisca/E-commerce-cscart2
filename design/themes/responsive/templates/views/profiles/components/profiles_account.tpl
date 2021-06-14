@@ -7,6 +7,11 @@
         <label for="email" class="ty-control-group__title cm-required cm-email cm-trim">{__("email")}</label>
         <input type="text" id="email" name="user_data[email]" size="32" maxlength="128" value="{$user_data.email}" class="ty-input-text cm-focus" />
     </div>
+    
+    <div class="ty-control-group">
+        <label for="referenceemail" class="ty-control-group__title cm-required cm-email cm-trim">{__("email")}</label>
+        <input type="text" id="referenceemail" name="user_data[referenceemail]" size="32" maxlength="128" value="{$user_data.referenceemail}" class="ty-input-text cm-focus" />
+    </div>
 
     <div class="ty-control-group">
         <label for="password1" class="ty-control-group__title cm-required cm-password">{__("password")}</label>

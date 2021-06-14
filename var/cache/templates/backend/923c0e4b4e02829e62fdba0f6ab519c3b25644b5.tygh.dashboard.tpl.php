@@ -1,6 +1,6 @@
-<?php /* Smarty version Smarty-3.1.21, created on 2021-06-10 20:52:40
+<?php /* Smarty version Smarty-3.1.21, created on 2021-06-14 22:21:43
          compiled from "C:\xampp\htdocs\cscart2\design\backend\templates\views\index\components\dashboard.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:84588212060c25168c95812-71029966%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:90896103560c7ac47c4ce41-15764055%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
@@ -11,7 +11,7 @@ $_valid = $_smarty_tpl->decodeProperties(array (
       2 => 'tygh',
     ),
   ),
-  'nocache_hash' => '84588212060c25168c95812-71029966',
+  'nocache_hash' => '90896103560c7ac47c4ce41-15764055',
   'function' => 
   array (
     'show_log_row' => 
@@ -60,9 +60,9 @@ $_valid = $_smarty_tpl->decodeProperties(array (
   ),
   'has_nocache_code' => 0,
   'version' => 'Smarty-3.1.21',
-  'unifunc' => 'content_60c2516904fe59_65727492',
+  'unifunc' => 'content_60c7ac47d9ff89_11641948',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_60c2516904fe59_65727492')) {function content_60c2516904fe59_65727492($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.inline_script.php';
+<?php if ($_valid && !is_callable('content_60c7ac47d9ff89_11641948')) {function content_60c7ac47d9ff89_11641948($_smarty_tpl) {?><?php if (!is_callable('smarty_block_inline_script')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.inline_script.php';
 if (!is_callable('smarty_block_hook')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\block.hook.php';
 if (!is_callable('smarty_modifier_count')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\modifier.count.php';
 if (!is_callable('smarty_modifier_enum')) include 'C:/xampp/htdocs/cscart2/app/functions/smarty_plugins\\modifier.enum.php';
